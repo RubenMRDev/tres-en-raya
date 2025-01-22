@@ -16,7 +16,7 @@ Este es un proyecto de un juego de Tres en Raya hecho con React y Vite.
 
 ## Gu a de instalaci n
 
-1. Clona el repositorio de GitHub: `git clone https://github.com/RubenMRDev/tres-en-raya.git`
+1. Clona el repositorio de GitHub: `git clone https://github.com/RubenMRDev/tres-en-raya`
 2. Entra en la carpeta del proyecto: `cd tres-en-raya`
 3. Instala las dependencias: `npm install`
 4. Ejecuta el proyecto: `npm run dev`
