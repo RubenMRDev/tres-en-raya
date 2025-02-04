@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Board from './Board';
+import './Game.css';
 
 const Game = () => {
   const [squares, setSquares] = useState(Array(9).fill(null));
@@ -48,10 +49,10 @@ const Game = () => {
 
   return (
     <div>
-      <h1 style={{ position: 'absolute', top: '20%', left: '50%', transform: 'translate(-50%, -50%)'}}>Tres en Raya</h1>
-      <p style={{ position: 'absolute', top: '27%', left: '50%', transform: 'translate(-50%, -50%)'}}>{status}</p>
+      <img src="src\images\logo.png" alt="Logo" className='logo'/>
+      <p>{status}</p>
       <Board squares={squares} onSquareClick={handleSquareClick} />
-      <p style={{ position: 'absolute', top: '70%', left: '50%', transform: 'translate(-50%, -50%)'}}>
+      <p>
         <button onClick={resetGame}>Reiniciar</button>
       </p>
     </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Square.css'; // Crea este archivo después
+import './Square.css'; 
 
 const Square = ({ value, onClick }) => {
   return (

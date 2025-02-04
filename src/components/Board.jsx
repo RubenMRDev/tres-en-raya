@@ -1,6 +1,6 @@
 import React from 'react';
 import Square from './Square';
-import './Board.css'; // Crea este archivo después
+import './Board.css'; 
 
 const Board = ({ squares, onSquareClick }) => {
   return (

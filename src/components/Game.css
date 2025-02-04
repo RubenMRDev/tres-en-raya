@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'MinecraftRegular';
+    src: url('../font/MinecraftRegular-Bmg3.otf') ;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  h1, p, button {
+    font-family: 'MinecraftRegular', sans-serif;
+  }
+button {
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.logo {
+    width: 400px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+  }
